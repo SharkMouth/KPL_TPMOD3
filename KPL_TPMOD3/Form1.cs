@@ -12,6 +12,20 @@ namespace KPL_TPMOD3
 
         }
 
-        
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            string input = textBox1.Text;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string input = (string)textBox1.Text;
+            label1.Text = "Halo " + input + "!";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
